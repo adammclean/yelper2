@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'carrierwave', '~> 0.10.0'
 gem 'figaro', '~> 1.1.1'
 gem 'fog', '~> 1.30.0'
-gem 'paperclip', '~> 4.2.1'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
