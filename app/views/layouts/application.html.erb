@@ -8,11 +8,10 @@
   <%= render 'layouts/bootstrap' %>
 </head>
 <body>
-<%= render 'layouts/nav' %>
-<a href="/pages/about">About</a>
-<a href="/pages/contact">Contact</a>
-<%= yield %>
-<%= render 'layouts/footer' %>
-
+  <%= render 'layouts/nav' %>
+  <div class = "container-fluid"></div>
+    <%= yield %>
+     <%= render 'layouts/footer' %>
+  </div>
 </body>
 </html>
