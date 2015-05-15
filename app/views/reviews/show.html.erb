@@ -5,20 +5,12 @@
   <%= @review.rating %>
 </p>
 
-<p>
-  <strong>Integer:</strong>
-  <%= @review.integer %>
-</p>
 
 <p>
   <strong>Comment:</strong>
   <%= @review.comment %>
 </p>
 
-<p>
-  <strong>Text:</strong>
-  <%= @review.text %>
-</p>
 
 <%= link_to 'Edit', edit_review_path(@review) %> |
 <%= link_to 'Back', reviews_path %>
